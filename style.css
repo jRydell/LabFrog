@@ -29,22 +29,23 @@ main {
   border: 5px solid var(--dark-spring-green);
   background-color: var(--cream);
   
-  .buttons {
-    padding: 1rem;
-    color: white;
-    border-radius: 1rem;
-  }
+  
+}
 
-  .startButton {
+.buttons {
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  &.startButton {
     background-color: rgb(6, 131, 14);
   }
 
-  .pausButton {
+ &.pausButton {
     background-color: rgb(175, 25, 25);
     border-radius: 50%;
   }
 
-  .menuButton {
+  &.menuButton {
     background-color: rgb(72, 69, 69);
   }
 }
