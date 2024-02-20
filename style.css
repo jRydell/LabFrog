@@ -40,12 +40,13 @@ main {
   }
 
   .pausButton {
-    background-color: grey;
+    background-color: rgb(175, 25, 25);
     border-radius: 50%;
   }
 
   .menuButton {
-    background-color: rgb(203, 26, 26);
+    background-color: rgb(72, 69, 69);
   }
+  
 }
 
