@@ -28,12 +28,12 @@ main {
   border-radius: 2rem;
   border: 5px solid var(--dark-spring-green);
   background-color: var(--cream);
-}
-
-.buttons {
-  padding: 2rem;
-  color: white;
-  border-radius: 1rem;
+  
+  .buttons {
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+  }
 
   .startButton {
     background-color: rgb(6, 131, 14);
@@ -47,6 +47,4 @@ main {
   .menuButton {
     background-color: rgb(72, 69, 69);
   }
-  
 }
-
